@@ -29,7 +29,7 @@ $( document ).ready(function() {
 	//checks for local storage and updates the ui
 	function checkLocal() {
 		if (localStorage.bunStore === undefined) {
-			localStorage.setItem("bunStore", JSON.stringify({}));
+			localStorage.setItem("bunStore", JSON.stringify({items: []}));
 		} else {
 			updateCartNav(JSON.parse(localStorage.getItem("bunStore")));
 		}
