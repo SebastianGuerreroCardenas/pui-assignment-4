@@ -123,9 +123,11 @@ $( document ).ready(function() {
 			    }
 			});
 			$("#productImg").attr("src","images/c6.png");
+			$("#productDetail").html("Awesome! Get some delicious stuff. This is bacon, we make straight out of the best ingridients o make sure you order as many as you can! There is a lot of love that goes into making them. Hope you enjoy them.");
 		} else {
 			$('#extraFlavors').html('');
 			$("#productImg").attr("src","images/c2.png");
+			$("#productDetail").html("Yes! This is bacon, we make straight out of the best ingridients o make sure you order as many as you can! There is a lot of love that goes into making them. Hope you enjoy them.");
 		}
 	});
 

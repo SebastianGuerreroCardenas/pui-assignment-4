@@ -21,6 +21,11 @@ a:hover {
 	height: 100%;
 }
 
+div#extraFlavors {
+    width: 200px;
+    padding-left: 400px;
+}
+
 #square {
 	width: 1300px;
 	height: 85px;
